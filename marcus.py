@@ -20,7 +20,7 @@ with open("dataraw.json") as f:
             "alt": d["alt"],
             "lat": d["lat"],
             "lon": d["lon"],
-            "speed": d["speed"],
+            "speed": d["speed"]
           }
 
         }
