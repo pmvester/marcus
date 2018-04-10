@@ -22,7 +22,6 @@ with open("dataraw.json") as f:
             "lon": d["lon"],
             "speed": d["speed"]
           }
-
         }
       ]
       db.write_points(json_body)
